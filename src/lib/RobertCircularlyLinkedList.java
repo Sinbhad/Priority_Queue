@@ -5,8 +5,8 @@ public class RobertCircularlyLinkedList<T>{
     Node head;
     Node tail;
 
-    public T getHead(){
-        return (T) head;
+    public Node <T> getHead(){
+        return head;
     }
 
     public void clear(){
